@@ -1,0 +1,371 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+html{
+    background-color: var(--background);
+}
+header{
+    width: 50%;
+
+    margin-bottom: 13vh;
+ 
+}
+
+header nav{
+    height: 10vh;
+    align-items: center;
+}
+
+nav{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:  0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 15px;
+    background-color: var(--button);
+    border-radius: 24px;
+    margin: 10px;
+    box-shadow: 5px 5px rgba(95, 87, 3, 0.6) ;
+}
+
+.menu ul li:hover{
+    color:#fff ;
+    cursor: pointer;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--title);
+}
+.logo{
+    display: flex;
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+}
+
+:root{
+    --background: #D9D0C7;
+    --button: #F2BF5E;
+    --title:#0D0D0D;
+    --subtitle:#595959;
+}
+
+#welcome{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 25px;
+ 
+    box-shadow: 10px 10px rgba(89, 89, 89, 60%) ;
+
+}
+
+.saiba-mas{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+}
+
+.box_link1{
+border-radius: 25px;
+display:flex;
+width: 100%;
+height: 15.625rem;
+background-color: #fff;
+box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
+align-items: end;
+background-image: url(/image/imagem_2023-08-24_141636282-transformed.png);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.box_link2{
+    border-radius: 25px;
+    display:flex;
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
+    align-items: end;
+    background-image: url(/image/QUAL-E-A-VANTAGEM-DE-UM-SSD-NVME-1140x683.jpeg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+.box_link3{
+border-radius: 25px;
+display:flex;
+width: 100%;
+height: 250px;
+background-color: #fff;
+box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
+align-items: end;
+background-image: url(/image/sac-facebook.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.image-banner{
+    height: 300px;
+    width: 480px;
+    border-radius: 24px;
+    background-image: url(/image/hard-disk-775847.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+#welcome h1{
+    font-family: 'Handjet', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-saiba-mais{
+    display: flex;
+    align-items: center;
+    background-color: var(--button);
+    color: var(--subtitle);
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+
+
+.button-saiba-mais a{
+    text-decoration: none;
+    color: var(--title);
+}
+
+.box_link3:hover{
+transform: scale(1.1);
+transition:.6s ease all ;
+}
+.box_link2:hover{
+    transform: scale(1.1);
+    transition:.6s ease all ;
+    }
+
+.box_link1:hover{
+    transform: scale(1.1);
+    transition:.6s ease all ;
+    }
+
+.blocos-texto{
+    z-index: 9;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+.paragrafo{
+justify-content: center;
+align-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 50%;
+height: 100%;
+align-items: center;
+
+}
+
+.paragrafos{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    
+    }
+
+.supertitulo{
+    z-index: 3;
+    background-color: #fff;
+    display:flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.supertitulo h1{
+    background-color: white;
+    padding: 15px;
+}
+
+.linha{
+    position:absolute;
+    z-index: 1;
+    height: 600vh;
+    width: 10px;
+    background-color: #0D0D0D;
+    right:30%;
+
+}
+
+.banner-linha{
+    z-index: 3;
+    height:15.625rem;
+    width: 15.625rem;
+    background-image: url(/image/PH0350A.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px;
+}
+
+.banner-linha1{
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    background-image: url(/image/Imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px;
+}
+
+.supertitulo  h1 span{
+    background-color: var(--button);
+
+}
+
+.banner-linha2{
+    height:  18.75rem;
+    width: 15.625rem ;
+    background-image: url(/image/Imagem4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+
+.banner-linha3{
+    height: 20rem;
+    width: 15.625rem;
+    background-image: url(/image/Img_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+.banner-linha4{
+    height:  18.75rem;
+    width:  18.75rem;
+    background-image: url(/image/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+.banner-linha5{
+    height: 18.75rem;
+    width: 18.75rem;
+    background-image: url(/image/Imagem6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+
+.banner-linha7{
+    height: 21.875rem;
+    width:  18.75rem;
+    background-image: url(/image/Imagem7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+.banner-linha8{
+    height:  18.75rem;
+    width:  18.75rem;
+    background-image: url(/image/ssds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px; 
+    margin-left: 30px;
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    background-color: var(--button);
+    height: 8vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    z-index: 10;
+}
+
+.linha{
+    position:absolute;
+    z-index: -1;
+    height: 600vh;
+    width: 10px;
+    background-color:var(--subtitle);
+    right:30%;
+
+}
+
+@media only screen and (max-width: 414px) and (min-width: 896px) {
+    .container {
+    max-width: 896px;
+    }
+
+    background-image{
+        display: none;
+    }
+
+    }
