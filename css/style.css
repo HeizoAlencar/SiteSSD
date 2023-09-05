@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Outfit', sans-serif;
-
 }
 
 html{
@@ -65,7 +64,6 @@ nav{
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-    height: 100vh;
 }
 
 :root{
@@ -189,9 +187,10 @@ transition:.6s ease all ;
 
 .blocos-texto{
     z-index: 9;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
     width: 100%;
-    height: 50vh;
+
     background-color: white;
     border-radius: 25px;
     display: flex;
@@ -206,6 +205,8 @@ grid-template-columns: 1fr 1fr;
 width: 50%;
 height: 100%;
 align-items: center;
+text-align: left;
+margin-right: 5px;
 
 }
 
@@ -224,22 +225,16 @@ align-items: center;
     z-index: 3;
     background-color: #fff;
     display:flex;
-    width: 50%;
-    height: 100%;
     justify-content: center;
     align-items: center;
    
 }
 
-.supertitulo h1{
-    background-color: white;
-    padding: 15px;
-}
 
 .linha{
     position:absolute;
     z-index: 1;
-    height: 600vh;
+    height: 100%;
     width: 10px;
     background-color: #0D0D0D;
     right:30%;
@@ -346,13 +341,12 @@ align-items: center;
     align-items: center;
     position: relative;
     bottom: 0px;
-    z-index: 10;
 }
 
 .linha{
     position:absolute;
     z-index: -1;
-    height: 600vh;
+    height: 380vh;
     width: 10px;
     background-color:var(--subtitle);
     right:30%;
@@ -360,15 +354,24 @@ align-items: center;
 }
 
 @media only screen and (max-width: 897px){
-    .container {
-    max-width: 896px;
-    margin: 0 auto;
+    body{
+        width: 360px;
     }
-    .banner-linha1, .banner-linha2,.banner-linha3,.banner-linha4.banner-linha5,.banner-linha7.banner-linha8, .banner-linha{
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .banner-linha1, .banner-linha2,.banner-linha3,.banner-linha4,.banner-linha5,.banner-linha7,.banner-linha8, .banner-linha{
         display: none;
         width: 0px;
     }
     .paragrafo{
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+    .paragrafos{
         grid-template-columns: 1fr;
         width: 70%;
     }
@@ -378,6 +381,22 @@ align-items: center;
     .paragrafo p{
         width: 100%;
     }
+    .paragrafos p{
+        width: 100%;
+    }
+    .supertitulo h1{
+        font-size: 20px;
+    }
+    .linha{
+        position:absolute;
+        z-index: -1;
+        height: 460vh;
+        width: 10px;
+        background-color:var(--subtitle);
+        right:30%;
+    
+    }
+
    
 
     }
