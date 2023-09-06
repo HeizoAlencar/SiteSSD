@@ -37,11 +37,19 @@
         <h1>Fale Conosco</h1>
         
             <form>
-                <label for="">Nome:</label>
-                <input type="text" placeholder="Nome" required="required"/><br>
-                    <label for="">Email: </label>
-                    <input type="email" id="email" value="" size="10%" maxlength="60" />
-                    <button onclick="enviar()">Enviar</button>
+                <div class="forms">
+                    <div class="form-elements"><label for="">Nome:</label>
+                        <input type="text" placeholder="Nome" required="required"/><br></div>
+                    <div class="form-elements"><label for="">Email: </label>
+                        <input type="email" id="email" value="" placeholder="Email" size="10%" maxlength="60" /><br>
+                    <div class="form-elements"> <label for="">Telefone: </label><input type="phone" placeholder="Telefone" required="required"/></div>
+                    <div class="form-elements"> 
+                        <button onclick="enviar()">Enviar</button></div>
+                </div>
+                
+                    
+
+                   
             </form>
     
 

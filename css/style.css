@@ -173,7 +173,9 @@ background-repeat: no-repeat;
 }
 
 .card{
-    display: flex;
+    margin: 0 auto;
+    top: 50%;
+    right: 50%;
     width: 80%;
     height: 300px;
     background-color: #fff;
@@ -183,8 +185,24 @@ background-repeat: no-repeat;
 }
 
 .formulario{
-    display:flex;
+
     width: 100%;
+    justify-content: center;
+}
+
+.forms .form-elements{
+    margin-top: 30px;
+}
+
+.formulario form button{
+    background-color: var(--button);
+    border: 0px;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.formulario form{
     justify-content: center;
 }
 
@@ -428,13 +446,14 @@ background-color: #fff;
 @media only screen and (max-width: 897px){
 
     .container {
-    max-width: 760px;
-    margin: 0px auto;
+    max-width: 897px;
+    margin: 0 auto;
 
 
     }
     .blocos-texto{
-        width: 100%;
+        width: 90%;
+   
 
     }
     .banner-linha1, .banner-linha2,.banner-linha3,.banner-linha4,.banner-linha5,.banner-linha7,.banner-linha8, .banner-linha{
