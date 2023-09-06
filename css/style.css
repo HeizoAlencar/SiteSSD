@@ -460,7 +460,7 @@ background-color: #fff;
 
 
 
-@media only screen and (min-width: 897px){
+@media only screen and (max-width: 897px){
 
     .container {
     max-width: 897px;
