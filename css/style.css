@@ -407,6 +407,10 @@ grid-gap: 10px;
 
 }
 
+.tamanho-modelo h1{
+    margin: 15px;
+}
+
 .grid-elements1{
     background-image: url(/image/ssd.jpg);
     background-repeat: no-repeat;
