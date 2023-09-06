@@ -41,23 +41,27 @@
             
         </div>
             <div class="grid-elemento">
-                <form target="tela_validacao.html" >
-                <div class="forms">
-                    <h1>Fale Conosco</h1>
-                    <div class="form-elements"><label for="">Nome:</label>
-                        <input type="text" placeholder="Nome"   required="required"/><br></div>
-                    <div class="form-elements"><label for="">Email: </label>
-                        <input type="email" id="email" value="" placeholder="Email" required="required" maxlength="60" /><br>
-                    <div class="form-elements"> <label for="">Telefone: </label><input type="tel"  placeholder="Telefone" required="required"/></div>
-                    <div class="form-elements"> 
-                    <textarea placeholder="Seu Comentário" ></textarea>
-                    <div class="buttons">
-                        <INPUT type="submit" name="b1" value="Enviar">
-                        <INPUT type="reset"  name="b2" value="Limpar">
+                
+                    <form action="tela_validacao.html" >
+                        <div class="forms"></div>
+                        <h1>Fale Conosco</h1>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" required="required" placeholder="  Email" name="email" id="email"><br>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" placeholder="  Nome Sobrenome" required="required"  placeholder="Nome" name="nome" id="nome"><br>
+                        <label for="tel">Telefone</label><br>
+                        <input type="tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}" placeholder="(99) 9999-9999"  (99) 9999-9999" name="tel" id="tel" required="required"><br>
+                        <label for="observ">Comentario</label><br>
+                        <textarea name="observ" id="observ" cols="30" placeholder="  Envie sua mensagem aqui" rows="10"></textarea><br>
+                        <div class="buttons">
+                            <INPUT type="submit" name="b1" value="Enviar">
+                            <INPUT type="reset"  name="b2" value="Limpar">
+                            </div>
                         </div>
-                    </div>
+                    </form>
+
                     
-                </div>
+                
             </form>
             </div> 
             </div>
