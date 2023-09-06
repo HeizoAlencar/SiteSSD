@@ -507,6 +507,10 @@ background-color: #fff;
 
 }
 
+.tamanho-modelo{
+    margin-bottom: 41vh;
+}
+
 .confimarcao{
     margin-top: 30px;
     display: flex;
@@ -589,3 +593,7 @@ background-color: #fff;
     .image-banner{
         display: none;
     }
+    .tamanho-modelo{
+        margin-bottom: 2vh;
+    }
+    
