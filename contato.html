@@ -40,17 +40,22 @@
             
         </div>
             <div class="grid-elemento">
-                <form>
+                <form target="tela_validacao.html" >
                 <div class="forms">
                     <h1>Fale Conosco</h1>
                     <div class="form-elements"><label for="">Nome:</label>
-                        <input type="text" placeholder="Nome" required="required"/><br></div>
+                        <input type="text" placeholder="Nome"   required="required"/><br></div>
                     <div class="form-elements"><label for="">Email: </label>
-                        <input type="email" id="email" value="" placeholder="Email" size="10%" maxlength="60" /><br>
-                    <div class="form-elements"> <label for="">Telefone: </label><input type="phone" placeholder="Telefone" required="required"/></div>
+                        <input type="email" id="email" value="" placeholder="Email" required="required" maxlength="60" /><br>
+                    <div class="form-elements"> <label for="">Telefone: </label><input type="tel"  placeholder="Telefone" required="required"/></div>
                     <div class="form-elements"> 
                     <textarea placeholder="Seu Comentário" ></textarea>
-                        <button onclick="enviar()">Enviar</button></div>
+                    <div class="buttons">
+                        <INPUT type="submit" name="b1" value="Enviar">
+                        <INPUT type="reset"  name="b2" value="Limpar">
+                        </div>
+                    </div>
+                    
                 </div>
             </form>
             </div> 
@@ -69,7 +74,7 @@
 <footer>
     <div class="linha_rodape"></div>
     <div class="rodape">
-        Copyright &copy; 2023 - Todos direitos reservados | Heizo Alencar Da Silva
+        Heizo Alencar 2023 – &copy Todos os direitos reservados|Sem fins Lucrativos
     </div>
 </footer>
 </body>
