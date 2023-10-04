@@ -401,6 +401,7 @@ margin-right: 5px;
     background-color: var(--button);
     height: 8vh;
     text-align: center;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -432,6 +433,7 @@ margin-right: 5px;
     height: auto;
     width: 120px;
     cursor: pointer;
+
 }
   
     /* Mais estilos... */
@@ -517,7 +519,7 @@ background-color: #fff;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     height: auto;
     color: rgba(136, 111, 66, 0.8);
     border-radius: 5px;
@@ -533,11 +535,14 @@ background-color: #fff;
 @media only screen and (max-width: 897px){
 
     .container {
-    max-width: 897px;
+    max-width: 414px;
     margin: 0 auto;
 
 
     }
+    html{
+        width: 390px;
+        height: auto;    }
     .blocos-texto{
         width: 90%;
    
@@ -595,5 +600,8 @@ background-color: #fff;
     }
     .tamanho-modelo{
         margin-bottom: 2vh;
+    }
+    .rodape{
+        font-size: 15px;
     }
     
