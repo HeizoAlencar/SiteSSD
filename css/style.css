@@ -108,7 +108,7 @@ height: 15.625rem;
 background-color: #fff;
 box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
 align-items: end;
-background-image: url(image/imagem_2023-08-24_141636282-transformed.png);
+background-image: url(/SiteSSD/image/imagem_2023-08-24_141636282-transformed.png);
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -122,7 +122,7 @@ background-repeat: no-repeat;
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
     align-items: end;
-    background-image: url(image/QUAL-E-A-VANTAGEM-DE-UM-SSD-NVME-1140x683.jpeg);
+    background-image: url(/SiteSSD/image/QUAL-E-A-VANTAGEM-DE-UM-SSD-NVME-1140x683.jpeg);
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -135,7 +135,7 @@ height: 250px;
 background-color: #fff;
 box-shadow: 0px 8px 16px 0px rgba(89, 89, 89, 0.2) ;
 align-items: end;
-background-image: url(image/sac-facebook.jpg);
+background-image: url(/SiteSSD/image/sac-facebook.jpg);
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -146,7 +146,7 @@ background-repeat: no-repeat;
     height: 300px;
     width: 480px;
     border-radius: 24px;
-    background-image: url(image/hard-disk-775847.jpg);
+    background-image: url(/SiteSSD/image/hard-disk-775847.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -309,7 +309,7 @@ margin-right: 5px;
     z-index: 3;
     height:15.625rem;
     width: 15.625rem;
-    background-image: url(/image/PH0350A.jpg);
+    background-image: url(/SiteSSD/image/PH0350A.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -320,7 +320,7 @@ margin-right: 5px;
     z-index: 3;
     height: 100%;
     width: 100%;
-    background-image: url(/image/Imagem3.jpg);
+    background-image: url(/SiteSSD/image/Imagem3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -335,7 +335,7 @@ margin-right: 5px;
 .banner-linha2{
     height:  18.75rem;
     width: 15.625rem ;
-    background-image: url(/image/Imagem4.jpg);
+    background-image: url(/SiteSSD/image/Imagem4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -346,7 +346,7 @@ margin-right: 5px;
 .banner-linha3{
     height: 20rem;
     width: 15.625rem;
-    background-image: url(/image/Img_3.jpg);
+    background-image: url(/SiteSSD/image/Img_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -356,7 +356,7 @@ margin-right: 5px;
 .banner-linha4{
     height:  18.75rem;
     width:  18.75rem;
-    background-image: url(/image/pngwing.com.png);
+    background-image: url(/SiteSSD/image/pngwing.com.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -366,7 +366,7 @@ margin-right: 5px;
 .banner-linha5{
     height: 18.75rem;
     width: 18.75rem;
-    background-image: url(/image/Imagem6.jpg);
+    background-image: url(/SiteSSD/image/Imagem6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -377,7 +377,7 @@ margin-right: 5px;
 .banner-linha7{
     height: 21.875rem;
     width:  18.75rem;
-    background-image: url(/image/Imagem7.jpg);
+    background-image: url(/SiteSSD/image/Imagem7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -387,7 +387,7 @@ margin-right: 5px;
 .banner-linha8{
     height:  18.75rem;
     width:  18.75rem;
-    background-image: url(/image/ssds.jpg);
+    background-image: url(/SiteSSD/image/ssds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -471,7 +471,7 @@ grid-gap: 10px;
 }
 
 .grid-elements1{
-    background-image: url(/image/ssd.jpg);
+    background-image: url(/SiteSSD/image/ssd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -490,7 +490,7 @@ textarea{
 }
 
 .grid-elements2{
-    background-image: url(/image/Laptop-hard-drive-exposed.jpg);
+    background-image: url(/SiteSSD/image/Laptop-hard-drive-exposed.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -499,7 +499,7 @@ height: 300px;
 background-color: #fff;
 }
 .grid-elements3{
-    background-image: url(/image/nvme.jpg);
+    background-image: url(/SiteSSD/image/nvme.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
